@@ -16,10 +16,10 @@
 package org.gwttime.time.base;
 
 
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.ReadableDateTime;
 import org.gwttime.time.format.DateTimeFormat;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.ReadableDateTime;
-import org.joda.time.util.Formatters;
+import org.gwttime.time.util.Formatters;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 
@@ -153,7 +153,7 @@ public abstract class AbstractDateTime
     /**
      * Get the day of month field value.
      * <p>
-     * The values for the day of month are defined in {@link org.joda.time.DateTimeConstants}.
+     * The values for the day of month are defined in {@link org.gwttime.time.DateTimeConstants}.
      * 
      * @return the day of month
      */
@@ -164,7 +164,7 @@ public abstract class AbstractDateTime
     /**
      * Get the day of week field value.
      * <p>
-     * The values for the day of week are defined in {@link org.joda.time.DateTimeConstants}.
+     * The values for the day of week are defined in {@link org.gwttime.time.DateTimeConstants}.
      * 
      * @return the day of week
      */

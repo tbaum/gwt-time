@@ -15,9 +15,9 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DurationField;
-import org.joda.time.DurationFieldType;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.DurationFieldType;
 
 /**
  * Abstract datetime field class that defines its own DurationField, which

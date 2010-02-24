@@ -15,11 +15,11 @@
  */
 package org.gwttime.time.chrono;
 
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.ReadablePartial;
 import org.gwttime.time.field.PreciseDurationDateTimeField;
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DurationField;
-import org.joda.time.ReadablePartial;
 
 /**
  * Provides time calculations for the week of a week based year component of time.
@@ -46,7 +46,7 @@ final class BasicWeekOfWeekyearDateTimeField extends PreciseDurationDateTimeFiel
     /**
      * Get the week of a week based year component of the specified time instant.
      * 
-     * @see org.joda.time.DateTimeField#get(long)
+     * @see org.gwttime.time.DateTimeField#get(long)
      * @param instant  the time instant in millis to query.
      * @return the week of the year extracted from the input.
      */

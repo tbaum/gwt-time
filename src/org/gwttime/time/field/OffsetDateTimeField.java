@@ -15,9 +15,9 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DurationField;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DurationField;
 
 /**
  * Generic offset adjusting datetime field.

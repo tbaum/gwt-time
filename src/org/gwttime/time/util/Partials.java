@@ -1,7 +1,7 @@
 package org.gwttime.time.util;
 
-import org.joda.time.Chronology;
-import org.joda.time.ReadablePartial;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.ReadablePartial;
 
 public final class Partials {
 	

@@ -15,8 +15,8 @@
  */
 package org.gwttime.time.chrono;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeConstants;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeConstants;
 
 /**
  * Abstract implementation of a calendar system based around fixed length months.

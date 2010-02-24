@@ -15,8 +15,8 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DurationField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DurationField;
 
 /**
  * Precise datetime field, composed of two precise duration fields.

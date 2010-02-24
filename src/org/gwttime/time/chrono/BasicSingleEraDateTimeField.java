@@ -16,14 +16,14 @@
 package org.gwttime.time.chrono;
 
 
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.DurationFieldType;
+import org.gwttime.time.IllegalFieldValueException;
 import org.gwttime.time.field.BaseDateTimeField;
 import org.gwttime.time.field.FieldUtils;
 import org.gwttime.time.field.UnsupportedDurationField;
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DurationField;
-import org.joda.time.DurationFieldType;
-import org.joda.time.IllegalFieldValueException;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

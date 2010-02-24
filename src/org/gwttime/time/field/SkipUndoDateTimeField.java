@@ -15,8 +15,8 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
 
 /**
  * Wraps another field such that a certain value is added back into

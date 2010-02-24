@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.joda.time.DateTimeZone;
+import org.gwttime.time.DateTimeZone;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.i18n.client.TimeZone;

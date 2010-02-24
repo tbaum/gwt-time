@@ -1,8 +1,8 @@
 package org.gwttime.time.compare;
 
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeFieldType;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeFieldType;
 
 /**
  * <p>A Comparator of type which performs rounding on the values 

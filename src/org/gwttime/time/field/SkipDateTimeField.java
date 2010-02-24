@@ -15,10 +15,10 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.IllegalFieldValueException;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.IllegalFieldValueException;
 
 /**
  * Wraps another field such that a certain value is skipped.

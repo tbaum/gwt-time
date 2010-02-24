@@ -18,12 +18,12 @@ package org.gwttime.time.chrono;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.IllegalFieldValueException;
 import org.gwttime.time.field.SkipDateTimeField;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeZone;
-import org.joda.time.IllegalFieldValueException;
 
 /**
  * Implements a pure proleptic Julian calendar system, which defines every

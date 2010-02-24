@@ -15,11 +15,11 @@
  */
 package org.gwttime.time.base;
 
+import org.gwttime.time.Duration;
+import org.gwttime.time.Period;
+import org.gwttime.time.ReadableDuration;
+import org.gwttime.time.ReadableInstant;
 import org.gwttime.time.format.FormatUtils;
-import org.joda.time.Duration;
-import org.joda.time.Period;
-import org.joda.time.ReadableDuration;
-import org.joda.time.ReadableInstant;
 
 /**
  * AbstractDuration provides the common behaviour for duration classes.

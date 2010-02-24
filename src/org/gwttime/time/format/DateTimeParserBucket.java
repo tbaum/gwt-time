@@ -18,14 +18,14 @@ package org.gwttime.time.format;
 
 import java.util.Arrays;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.DateTimeZone;
-import org.joda.time.DurationField;
-import org.joda.time.IllegalFieldValueException;
-import org.joda.time.util.ArrayCopier;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.IllegalFieldValueException;
+import org.gwttime.time.util.ArrayCopier;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

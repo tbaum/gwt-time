@@ -15,13 +15,13 @@
  */
 package org.gwttime.time.chrono;
 
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.ReadablePartial;
 import org.gwttime.time.field.FieldUtils;
 import org.gwttime.time.field.ImpreciseDateTimeField;
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.DurationField;
-import org.joda.time.ReadablePartial;
 
 /**
  * Provides time calculations for the month of the year component of time.
@@ -63,8 +63,8 @@ class BasicMonthOfYearDateTimeField extends ImpreciseDateTimeField {
     /**
      * Get the Month component of the specified time instant.
      *
-     * @see org.joda.time.DateTimeField#get(long)
-     * @see org.joda.time.ReadableDateTime#getMonthOfYear()
+     * @see org.gwttime.time.DateTimeField#get(long)
+     * @see org.gwttime.time.ReadableDateTime#getMonthOfYear()
      * @param instant  the time instant in millis to query.
      * @return the month extracted from the input.
      */
@@ -82,8 +82,8 @@ class BasicMonthOfYearDateTimeField extends ImpreciseDateTimeField {
      * 07-31 - (1 month) = 06-30<p>
      * 03-31 - (1 month) = 02-28 or 02-29 depending<p>
      * 
-     * @see org.joda.time.DateTimeField#add
-     * @see org.joda.time.ReadWritableDateTime#addMonths(int)
+     * @see org.gwttime.time.DateTimeField#add
+     * @see org.gwttime.time.ReadWritableDateTime#addMonths(int)
      * @param instant  the time instant in millis to update.
      * @param months  the months to add (can be negative).
      * @return the updated time instant.
@@ -223,7 +223,7 @@ class BasicMonthOfYearDateTimeField extends ImpreciseDateTimeField {
      * Add to the Month component of the specified time instant
      * wrapping around within that component if necessary.
      * 
-     * @see org.joda.time.DateTimeField#addWrapField
+     * @see org.gwttime.time.DateTimeField#addWrapField
      * @param instant  the time instant in millis to update.
      * @param months  the months to add (can be negative).
      * @return the updated time instant.

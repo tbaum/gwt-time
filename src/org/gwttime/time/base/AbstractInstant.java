@@ -17,20 +17,20 @@ package org.gwttime.time.base;
 
 import java.util.Date;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTime;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.Instant;
+import org.gwttime.time.MutableDateTime;
+import org.gwttime.time.ReadableInstant;
 import org.gwttime.time.chrono.ISOChronology;
 import org.gwttime.time.field.FieldUtils;
 import org.gwttime.time.format.DateTimeFormatter;
 import org.gwttime.time.format.ISODateTimeFormat;
-import org.joda.time.Chronology;
-import org.joda.time.DateTime;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.DateTimeZone;
-import org.joda.time.Instant;
-import org.joda.time.MutableDateTime;
-import org.joda.time.ReadableInstant;
-import org.joda.time.util.Formatters;
+import org.gwttime.time.util.Formatters;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

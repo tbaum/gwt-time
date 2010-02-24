@@ -17,15 +17,15 @@ package org.gwttime.time.base;
 
 import java.io.Serializable;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.Interval;
+import org.gwttime.time.Period;
+import org.gwttime.time.PeriodType;
+import org.gwttime.time.ReadableDuration;
+import org.gwttime.time.ReadableInstant;
+import org.gwttime.time.ReadableInterval;
 import org.gwttime.time.field.FieldUtils;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.Interval;
-import org.joda.time.Period;
-import org.joda.time.PeriodType;
-import org.joda.time.ReadableDuration;
-import org.joda.time.ReadableInstant;
-import org.joda.time.ReadableInterval;
 
 /**
  * BaseDuration is an abstract implementation of ReadableDuration that stores

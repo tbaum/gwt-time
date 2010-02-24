@@ -15,10 +15,10 @@
  */
 package org.gwttime.time.chrono;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeZone;
 import org.gwttime.time.field.LenientDateTimeField;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeZone;
 
 /**
  * Wraps another Chronology, ensuring all the fields are lenient.

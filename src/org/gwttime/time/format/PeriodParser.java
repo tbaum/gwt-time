@@ -17,7 +17,7 @@ package org.gwttime.time.format;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 
-import org.joda.time.ReadWritablePeriod;
+import org.gwttime.time.ReadWritablePeriod;
 
 /**
  * Internal interface for parsing textual representations of time periods.

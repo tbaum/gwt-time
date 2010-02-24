@@ -17,8 +17,8 @@ package org.gwttime.time.field;
 
 import java.io.Serializable;
 
-import org.joda.time.DurationField;
-import org.joda.time.DurationFieldType;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.DurationFieldType;
 
 /**
  * <code>DelegatedDurationField</code> delegates each method call to the

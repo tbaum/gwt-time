@@ -17,19 +17,19 @@ package org.gwttime.time.base;
 
 import java.io.Serializable;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.Duration;
+import org.gwttime.time.DurationFieldType;
+import org.gwttime.time.MutablePeriod;
+import org.gwttime.time.PeriodType;
+import org.gwttime.time.ReadWritablePeriod;
+import org.gwttime.time.ReadableDuration;
+import org.gwttime.time.ReadableInstant;
+import org.gwttime.time.ReadableInterval;
+import org.gwttime.time.ReadablePartial;
+import org.gwttime.time.ReadablePeriod;
 import org.gwttime.time.field.FieldUtils;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.Duration;
-import org.joda.time.DurationFieldType;
-import org.joda.time.MutablePeriod;
-import org.joda.time.PeriodType;
-import org.joda.time.ReadWritablePeriod;
-import org.joda.time.ReadableDuration;
-import org.joda.time.ReadableInstant;
-import org.joda.time.ReadableInterval;
-import org.joda.time.ReadablePartial;
-import org.joda.time.ReadablePeriod;
 
 /**
  * BasePeriod is an abstract implementation of ReadablePeriod that stores

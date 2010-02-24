@@ -17,18 +17,18 @@ package org.gwttime.time.chrono;
 
 import java.io.Serializable;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.DurationFieldType;
+import org.gwttime.time.IllegalFieldValueException;
+import org.gwttime.time.ReadablePartial;
+import org.gwttime.time.ReadablePeriod;
 import org.gwttime.time.field.FieldUtils;
 import org.gwttime.time.field.UnsupportedDateTimeField;
 import org.gwttime.time.field.UnsupportedDurationField;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeZone;
-import org.joda.time.DurationField;
-import org.joda.time.DurationFieldType;
-import org.joda.time.IllegalFieldValueException;
-import org.joda.time.ReadablePartial;
-import org.joda.time.ReadablePeriod;
 
 /**
  * BaseChronology provides a skeleton implementation for chronology
@@ -495,7 +495,7 @@ public abstract class BaseChronology
      * Get the day of week field for this chronology.
      *
      * <p>DayOfWeek values are defined in
-     * {@link org.joda.time.DateTimeConstants DateTimeConstants}.
+     * {@link org.gwttime.time.DateTimeConstants DateTimeConstants}.
      * They use the ISO definitions, where 1 is Monday and 7 is Sunday.
      * 
      * @return DateTimeField or UnsupportedDateTimeField if unsupported

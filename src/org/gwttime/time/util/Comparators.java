@@ -3,11 +3,11 @@ package org.gwttime.time.util;
 import java.util.Comparator;
 import java.util.Date;
 
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.ReadableInstant;
 import org.gwttime.time.compare.ReadableInstantComparator;
 import org.gwttime.time.compare.RoundingDateComparator;
 import org.gwttime.time.compare.RoundingLongComparator;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.ReadableInstant;
 
 
 public class Comparators {

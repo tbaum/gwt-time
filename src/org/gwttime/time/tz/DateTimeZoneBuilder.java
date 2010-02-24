@@ -19,10 +19,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.DateTimeZone;
 import org.gwttime.time.chrono.ISOChronology;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.DateTimeZone;
 
 /**
  * DateTimeZoneBuilder allows complex DateTimeZones to be constructed. Since

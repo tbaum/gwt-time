@@ -19,11 +19,11 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeZone;
 import org.gwttime.time.field.DividedDateTimeField;
 import org.gwttime.time.field.RemainderDateTimeField;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeZone;
 
 
 /**

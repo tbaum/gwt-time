@@ -17,7 +17,7 @@ package org.gwttime.time.tz;
 
 import java.util.Set;
 
-import org.joda.time.DateTimeZone;
+import org.gwttime.time.DateTimeZone;
 
 /**
  * Service provider factory for time zones.

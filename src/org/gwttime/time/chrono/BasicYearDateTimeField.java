@@ -15,10 +15,10 @@
  */
 package org.gwttime.time.chrono;
 
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DurationField;
 import org.gwttime.time.field.FieldUtils;
 import org.gwttime.time.field.ImpreciseDateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DurationField;
 
 /**
  * A year field suitable for many calendars.

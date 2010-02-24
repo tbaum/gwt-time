@@ -16,9 +16,10 @@
 package org.gwttime.time.format;
 
 import com.google.gwt.i18n.client.LocaleInfo;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeZone;
-import org.joda.time.ReadablePartial;
+
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.ReadablePartial;
 
 
 /**

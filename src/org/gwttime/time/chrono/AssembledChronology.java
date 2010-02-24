@@ -15,10 +15,10 @@
  */
 package org.gwttime.time.chrono;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeZone;
-import org.joda.time.DurationField;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.DurationField;
 
 /**
  * Abstract Chronology that enables chronologies to be assembled from

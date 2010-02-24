@@ -19,19 +19,19 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.IllegalFieldValueException;
+import org.gwttime.time.Instant;
+import org.gwttime.time.ReadableInstant;
+import org.gwttime.time.ReadablePartial;
 import org.gwttime.time.field.BaseDateTimeField;
 import org.gwttime.time.field.DecoratedDurationField;
 import org.gwttime.time.format.DateTimeFormatter;
 import org.gwttime.time.format.ISODateTimeFormat;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.DateTimeZone;
-import org.joda.time.DurationField;
-import org.joda.time.IllegalFieldValueException;
-import org.joda.time.Instant;
-import org.joda.time.ReadableInstant;
-import org.joda.time.ReadablePartial;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 
@@ -115,7 +115,7 @@ public final class GJChronology extends AssembledChronology {
      * October 15, 1582 (Gregorian).
      *
      * <p>The first day of the week is designated to be
-     * {@link org.joda.time.DateTimeConstants#MONDAY Monday},
+     * {@link org.gwttime.time.DateTimeConstants#MONDAY Monday},
      * and the minimum days in the first week of the year is 4.
      *
      * <p>The time zone of the returned instance is UTC.
@@ -131,7 +131,7 @@ public final class GJChronology extends AssembledChronology {
      * October 15, 1582 (Gregorian).
      *
      * <p>The first day of the week is designated to be
-     * {@link org.joda.time.DateTimeConstants#MONDAY Monday},
+     * {@link org.gwttime.time.DateTimeConstants#MONDAY Monday},
      * and the minimum days in the first week of the year is 4.
      *
      * <p>The returned chronology is in the default time zone.
@@ -147,7 +147,7 @@ public final class GJChronology extends AssembledChronology {
      * (Gregorian).
      *
      * <p>The first day of the week is designated to be
-     * {@link org.joda.time.DateTimeConstants#MONDAY Monday},
+     * {@link org.gwttime.time.DateTimeConstants#MONDAY Monday},
      * and the minimum days in the first week of the year is 4.
      *
      * @param zone  the time zone to use, null is default
@@ -161,7 +161,7 @@ public final class GJChronology extends AssembledChronology {
      * cutover date may be specified.
      *
      * <p>The first day of the week is designated to be
-     * {@link org.joda.time.DateTimeConstants#MONDAY Monday},
+     * {@link org.gwttime.time.DateTimeConstants#MONDAY Monday},
      * and the minimum days in the first week of the year is 4.
      *
      * @param zone  the time zone to use, null is default

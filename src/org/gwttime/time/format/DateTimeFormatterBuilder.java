@@ -22,16 +22,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.MutableDateTime;
+import org.gwttime.time.ReadablePartial;
+import org.gwttime.time.MutableDateTime.Property;
 import org.gwttime.time.field.MillisDurationField;
 import org.gwttime.time.field.PreciseDateTimeField;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeZone;
-import org.joda.time.MutableDateTime;
-import org.joda.time.ReadablePartial;
-import org.joda.time.MutableDateTime.Property;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

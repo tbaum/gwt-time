@@ -18,7 +18,7 @@ package org.gwttime.time.tz;
 import java.util.Collections;
 import java.util.Set;
 
-import org.joda.time.DateTimeZone;
+import org.gwttime.time.DateTimeZone;
 
 /**
  * Simple time zone provider that supports only UTC.

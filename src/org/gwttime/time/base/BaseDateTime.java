@@ -18,12 +18,12 @@ package org.gwttime.time.base;
 import java.io.Serializable;
 import java.util.Date;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.ReadableDateTime;
+import org.gwttime.time.ReadableInstant;
 import org.gwttime.time.chrono.ISOChronology;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.DateTimeZone;
-import org.joda.time.ReadableDateTime;
-import org.joda.time.ReadableInstant;
 
 /**
  * BaseDateTime is an abstract implementation of ReadableDateTime that stores

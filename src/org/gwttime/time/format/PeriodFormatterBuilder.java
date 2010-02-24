@@ -20,12 +20,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.TreeSet;
 
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DurationFieldType;
-import org.joda.time.PeriodType;
-import org.joda.time.ReadWritablePeriod;
-import org.joda.time.ReadablePeriod;
-import org.joda.time.util.ArrayCopier;
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DurationFieldType;
+import org.gwttime.time.PeriodType;
+import org.gwttime.time.ReadWritablePeriod;
+import org.gwttime.time.ReadablePeriod;
+import org.gwttime.time.util.ArrayCopier;
 
 
 import com.google.gwt.i18n.client.LocaleInfo;

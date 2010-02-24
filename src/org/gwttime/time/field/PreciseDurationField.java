@@ -15,7 +15,7 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.DurationFieldType;
+import org.gwttime.time.DurationFieldType;
 
 /**
  * Duration field class representing a field with a fixed unit length.

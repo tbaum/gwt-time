@@ -1,8 +1,8 @@
 package org.gwttime.time.compare;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeFieldType;
 import org.gwttime.time.chrono.ISOChronology;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeFieldType;
 
 public final class RoundingLongComparator extends RoundingJodaComparator<Long> {
 

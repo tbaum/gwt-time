@@ -16,7 +16,7 @@
 package org.gwttime.time.tz;
 
 
-import org.joda.time.DateTimeZone;
+import org.gwttime.time.DateTimeZone;
 
 /**
  * Basic DateTimeZone implementation that has a fixed name key and offsets.

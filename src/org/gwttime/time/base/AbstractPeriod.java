@@ -15,12 +15,12 @@
  */
 package org.gwttime.time.base;
 
+import org.gwttime.time.DurationFieldType;
+import org.gwttime.time.MutablePeriod;
+import org.gwttime.time.Period;
+import org.gwttime.time.ReadablePeriod;
 import org.gwttime.time.format.ISOPeriodFormat;
 import org.gwttime.time.format.PeriodFormatter;
-import org.joda.time.DurationFieldType;
-import org.joda.time.MutablePeriod;
-import org.joda.time.Period;
-import org.joda.time.ReadablePeriod;
 
 /**
  * AbstractPeriod provides the common behaviour for period classes.
@@ -149,7 +149,7 @@ public abstract class AbstractPeriod implements ReadablePeriod {
      * at daylight savings boundary).
      * <p>
      * To compare the actual duration of two periods, convert both to
-     * {@link org.joda.time.Duration Duration}s, an operation that emphasises
+     * {@link org.gwttime.time.Duration Duration}s, an operation that emphasises
      * that the result may differ according to the date you choose.
      *
      * @param period  a readable period to check against

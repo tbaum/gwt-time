@@ -15,11 +15,11 @@
  */
 package org.gwttime.time.chrono;
 
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DurationField;
 import org.gwttime.time.field.FieldUtils;
 import org.gwttime.time.field.ImpreciseDateTimeField;
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DurationField;
 
 /**
  * Provides time calculations for the week of the weekyear component of time.
@@ -52,7 +52,7 @@ final class BasicWeekyearDateTimeField extends ImpreciseDateTimeField {
     /**
      * Get the Year of a week based year component of the specified time instant.
      * 
-     * @see org.joda.time.DateTimeField#get
+     * @see org.gwttime.time.DateTimeField#get
      * @param instant  the time instant in millis to query.
      * @return the year extracted from the input.
      */
@@ -63,7 +63,7 @@ final class BasicWeekyearDateTimeField extends ImpreciseDateTimeField {
     /**
      * Add the specified years to the specified time instant.
      * 
-     * @see org.joda.time.DateTimeField#add
+     * @see org.gwttime.time.DateTimeField#add
      * @param instant  the time instant in millis to update.
      * @param years  the years to add (can be negative).
      * @return the updated time instant.
@@ -83,7 +83,7 @@ final class BasicWeekyearDateTimeField extends ImpreciseDateTimeField {
      * Add to the year component of the specified time instant
      * wrapping around within that component if necessary.
      * 
-     * @see org.joda.time.DateTimeField#addWrapField
+     * @see org.gwttime.time.DateTimeField#addWrapField
      * @param instant  the time instant in millis to update.
      * @param years  the years to add (can be negative).
      * @return the updated time instant.
@@ -118,7 +118,7 @@ final class BasicWeekyearDateTimeField extends ImpreciseDateTimeField {
     /**
      * Set the Year of a week based year component of the specified time instant.
      *
-     * @see org.joda.time.DateTimeField#set
+     * @see org.gwttime.time.DateTimeField#set
      * @param instant  the time instant in millis to update.
      * @param year  the year (-9999,9999) to set the date to.
      * @return the updated DateTime.

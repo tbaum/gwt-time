@@ -15,10 +15,10 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DurationField;
-import org.joda.time.ReadablePartial;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.ReadablePartial;
 
 /**
  * Wraps another field such that zero values are replaced with one more than

@@ -19,7 +19,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.joda.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeFieldType;
 
 import com.google.gwt.i18n.client.DateTimeFormat;
 

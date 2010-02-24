@@ -19,11 +19,11 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTime;
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeZone;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTime;
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeZone;
 
 /**
  * Implements the Islamic, or Hijri, calendar system using arithmetic rules.

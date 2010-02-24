@@ -19,8 +19,8 @@ package org.gwttime.time.chrono;
 import java.util.HashMap;
 import java.util.TreeMap;
 
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.IllegalFieldValueException;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.IllegalFieldValueException;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

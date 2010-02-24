@@ -17,17 +17,17 @@ package org.gwttime.time.chrono;
 
 import java.util.HashMap;
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.IllegalFieldValueException;
+import org.gwttime.time.Instant;
+import org.gwttime.time.ReadablePartial;
 import org.gwttime.time.field.BaseDateTimeField;
 import org.gwttime.time.field.BaseDurationField;
 import org.gwttime.time.format.DateTimeFormat;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeZone;
-import org.joda.time.DurationField;
-import org.joda.time.IllegalFieldValueException;
-import org.joda.time.Instant;
-import org.joda.time.ReadablePartial;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

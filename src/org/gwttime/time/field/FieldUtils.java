@@ -15,9 +15,9 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.IllegalFieldValueException;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.IllegalFieldValueException;
 
 /**
  * General utilities that don't fit elsewhere.

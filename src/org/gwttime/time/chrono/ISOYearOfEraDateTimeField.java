@@ -15,11 +15,11 @@
  */
 package org.gwttime.time.chrono;
 
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.ReadablePartial;
 import org.gwttime.time.field.DecoratedDateTimeField;
 import org.gwttime.time.field.FieldUtils;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.ReadablePartial;
 
 /**
  * This field is not publicy exposed by ISOChronology, but rather it is used to

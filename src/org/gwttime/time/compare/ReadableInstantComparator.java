@@ -2,10 +2,10 @@ package org.gwttime.time.compare;
 
 import java.util.Comparator;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.ReadableInstant;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.ReadableInstant;
 
 public final class ReadableInstantComparator<T extends ReadableInstant> extends RoundingJodaComparator<T> {
 	

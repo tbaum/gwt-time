@@ -16,6 +16,13 @@
 package org.gwttime.time.chrono;
 
 
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.DurationFieldType;
 import org.gwttime.time.field.DividedDateTimeField;
 import org.gwttime.time.field.FieldUtils;
 import org.gwttime.time.field.MillisDurationField;
@@ -24,13 +31,6 @@ import org.gwttime.time.field.PreciseDateTimeField;
 import org.gwttime.time.field.PreciseDurationField;
 import org.gwttime.time.field.RemainderDateTimeField;
 import org.gwttime.time.field.ZeroIsMaxDateTimeField;
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeZone;
-import org.joda.time.DurationField;
-import org.joda.time.DurationFieldType;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

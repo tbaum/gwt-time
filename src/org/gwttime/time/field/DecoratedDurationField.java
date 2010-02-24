@@ -15,8 +15,8 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.DurationField;
-import org.joda.time.DurationFieldType;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.DurationFieldType;
 
 /**
  * <code>DecoratedDurationField</code> extends {@link BaseDurationField},

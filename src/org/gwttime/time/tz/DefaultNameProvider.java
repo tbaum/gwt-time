@@ -15,7 +15,7 @@
  */
 package org.gwttime.time.tz;
 
-import org.joda.time.DateTimeZone;
+import org.gwttime.time.DateTimeZone;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

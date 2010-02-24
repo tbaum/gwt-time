@@ -2,11 +2,11 @@ package org.gwttime.time.util;
 
 import java.util.Date;
 
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.ReadableInstant;
+import org.gwttime.time.ReadablePartial;
 import org.gwttime.time.tz.GwtTimeZone;
 import org.gwttime.time.tz.GwtZoneInfoProvider;
-import org.joda.time.DateTimeZone;
-import org.joda.time.ReadableInstant;
-import org.joda.time.ReadablePartial;
 
 import com.google.gwt.i18n.client.DateTimeFormat;
 import com.google.gwt.i18n.client.TimeZone;

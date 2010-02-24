@@ -2,8 +2,8 @@ package org.gwttime.time.tz;
 
 import java.util.Date;
 
-import org.joda.time.DateTimeConstants;
-import org.joda.time.DateTimeZone;
+import org.gwttime.time.DateTimeConstants;
+import org.gwttime.time.DateTimeZone;
 
 import com.google.gwt.i18n.client.TimeZone;
 

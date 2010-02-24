@@ -17,14 +17,14 @@ package org.gwttime.time.field;
 
 import java.io.Serializable;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeFieldType;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.DurationField;
-import org.joda.time.Interval;
-import org.joda.time.ReadableInstant;
-import org.joda.time.ReadablePartial;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeFieldType;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.DurationField;
+import org.gwttime.time.Interval;
+import org.gwttime.time.ReadableInstant;
+import org.gwttime.time.ReadablePartial;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

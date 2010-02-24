@@ -18,16 +18,16 @@ package org.gwttime.time.base;
 import java.io.Serializable;
 import java.util.Date;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.ReadableInstant;
-import org.joda.time.ReadablePartial;
-import org.joda.time.util.ArrayCopier;
-import org.joda.time.util.Dates;
-import org.joda.time.util.Formatters;
-import org.joda.time.util.Instants;
-import org.joda.time.util.Partials;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.ReadableInstant;
+import org.gwttime.time.ReadablePartial;
+import org.gwttime.time.util.ArrayCopier;
+import org.gwttime.time.util.Dates;
+import org.gwttime.time.util.Formatters;
+import org.gwttime.time.util.Instants;
+import org.gwttime.time.util.Partials;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 
@@ -36,7 +36,7 @@ import com.google.gwt.i18n.client.LocaleInfo;
  * data in array and <code>Chronology</code> fields.
  * <p>
  * This class should generally not be used directly by API users.
- * The {@link org.joda.time.ReadablePartial} interface should be used when different 
+ * The {@link org.gwttime.time.ReadablePartial} interface should be used when different 
  * kinds of partial objects are to be referenced.
  * <p>
  * BasePartial subclasses may be mutable and not thread-safe.

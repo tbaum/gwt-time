@@ -15,8 +15,8 @@
  */
 package org.gwttime.time.field;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeField;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeField;
 
 /**
  * Converts a strict DateTimeField into a lenient one. By being lenient, the
