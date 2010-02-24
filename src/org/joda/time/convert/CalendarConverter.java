@@ -15,10 +15,10 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeZone;
-import org.joda.time.chrono.BuddhistChronology;
-import org.joda.time.chrono.ISOChronology;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.chrono.BuddhistChronology;
+import org.gwttime.time.chrono.ISOChronology;
 
 /**
  * CalendarConverter converts a java util Calendar to an instant or partial.

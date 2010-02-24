@@ -15,10 +15,10 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.PeriodType;
-import org.joda.time.ReadWritablePeriod;
-import org.joda.time.ReadablePeriod;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.PeriodType;
+import org.gwttime.time.ReadWritablePeriod;
+import org.gwttime.time.ReadablePeriod;
 
 /**
  * ReadablePeriodConverter extracts milliseconds and chronology from a ReadablePeriod.

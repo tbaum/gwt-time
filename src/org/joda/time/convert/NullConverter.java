@@ -15,11 +15,11 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.Period;
-import org.joda.time.ReadWritableInterval;
-import org.joda.time.ReadWritablePeriod;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.Period;
+import org.gwttime.time.ReadWritableInterval;
+import org.gwttime.time.ReadWritablePeriod;
 
 /**
  * NullConverter converts null to an instant, partial, duration, period

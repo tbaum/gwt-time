@@ -15,11 +15,11 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.ReadWritableInterval;
-import org.joda.time.ReadWritablePeriod;
-import org.joda.time.ReadableInterval;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.ReadWritableInterval;
+import org.gwttime.time.ReadWritablePeriod;
+import org.gwttime.time.ReadableInterval;
 
 /**
  * Converts intervals into durations of any requested period type.

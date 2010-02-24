@@ -15,8 +15,8 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.ReadWritableInterval;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.ReadWritableInterval;
 
 /**
  * IntervalConverter defines how an object is converted to an interval.

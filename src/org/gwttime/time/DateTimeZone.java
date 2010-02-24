@@ -24,12 +24,7 @@ import org.gwttime.time.format.DateTimeFormat;
 import org.gwttime.time.format.DateTimeFormatter;
 import org.gwttime.time.format.DateTimeFormatterBuilder;
 import org.gwttime.time.format.FormatUtils;
-import org.gwttime.time.tz.DefaultNameProvider;
-import org.gwttime.time.tz.FixedDateTimeZone;
-import org.gwttime.time.tz.NameProvider;
-import org.gwttime.time.tz.Provider;
-import org.gwttime.time.tz.UTCProvider;
-import org.joda.time.tz.*;
+import org.gwttime.time.tz.*;
 
 import java.io.*;
 import java.util.HashMap;

@@ -15,7 +15,7 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
+import org.gwttime.time.Chronology;
 
 /**
  * LongConverter converts a Long to an instant, partial or duration.

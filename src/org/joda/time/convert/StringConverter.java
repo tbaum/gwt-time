@@ -15,17 +15,17 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTime;
-import org.joda.time.Period;
-import org.joda.time.ReadWritableInterval;
-import org.joda.time.ReadWritablePeriod;
-import org.joda.time.ReadablePartial;
-import org.joda.time.field.FieldUtils;
-import org.joda.time.format.DateTimeFormatter;
-import org.joda.time.format.ISODateTimeFormat;
-import org.joda.time.format.ISOPeriodFormat;
-import org.joda.time.format.PeriodFormatter;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTime;
+import org.gwttime.time.Period;
+import org.gwttime.time.ReadWritableInterval;
+import org.gwttime.time.ReadWritablePeriod;
+import org.gwttime.time.ReadablePartial;
+import org.gwttime.time.field.FieldUtils;
+import org.gwttime.time.format.DateTimeFormatter;
+import org.gwttime.time.format.ISODateTimeFormat;
+import org.gwttime.time.format.ISOPeriodFormat;
+import org.gwttime.time.format.PeriodFormatter;
 
 /**
  * StringConverter converts from a String to an instant, partial,

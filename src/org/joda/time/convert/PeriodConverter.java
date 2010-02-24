@@ -15,9 +15,9 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.PeriodType;
-import org.joda.time.ReadWritablePeriod;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.PeriodType;
+import org.gwttime.time.ReadWritablePeriod;
 
 /**
  * PeriodConverter defines how an object is converted to a time period.

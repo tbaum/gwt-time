@@ -15,8 +15,8 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeZone;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeZone;
 
 /**
  * InstantConverter defines how an object is converted to milliseconds/chronology.

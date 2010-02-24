@@ -15,7 +15,7 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.util.ArrayCopier;
+import org.gwttime.time.util.ArrayCopier;
 
 
 /**

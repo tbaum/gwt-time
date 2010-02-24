@@ -15,11 +15,11 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.DateTimeZone;
-import org.joda.time.ReadableInstant;
-import org.joda.time.chrono.ISOChronology;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.ReadableInstant;
+import org.gwttime.time.chrono.ISOChronology;
 
 /**
  * ReadableInstantConverter extracts milliseconds and chronology from a ReadableInstant.

@@ -15,13 +15,13 @@
  */
 package org.joda.time.convert;
 
-import org.joda.time.Chronology;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.DateTimeZone;
-import org.joda.time.PeriodType;
-import org.joda.time.ReadablePartial;
-import org.joda.time.chrono.ISOChronology;
-import org.joda.time.format.DateTimeFormatter;
+import org.gwttime.time.Chronology;
+import org.gwttime.time.DateTimeUtils;
+import org.gwttime.time.DateTimeZone;
+import org.gwttime.time.PeriodType;
+import org.gwttime.time.ReadablePartial;
+import org.gwttime.time.chrono.ISOChronology;
+import org.gwttime.time.format.DateTimeFormatter;
 
 /**
  * AbstractConverter simplifies the process of implementing a converter.

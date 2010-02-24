@@ -17,7 +17,7 @@ package org.joda.time.convert;
 
 import java.util.Date;
 
-import org.joda.time.Chronology;
+import org.gwttime.time.Chronology;
 
 /**
  * DateConverter converts a java util Date to an instant or partial.
