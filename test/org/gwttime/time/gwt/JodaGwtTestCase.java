@@ -24,7 +24,7 @@ public class JodaGwtTestCase extends GWTTestCase {
 
     @Override
     public String getModuleName() {
-        return "org.joda.TimeTest";
+        return "org.gwttime.TimeTest";
     }
 
 }
