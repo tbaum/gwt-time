@@ -17,6 +17,7 @@ package org.gwttime.time.base;
 
 import java.io.Serializable;
 
+import org.gwttime.time.chrono.ISOChronology;
 import org.joda.time.Chronology;
 import org.joda.time.DateTimeUtils;
 import org.joda.time.DurationField;
@@ -27,7 +28,6 @@ import org.joda.time.PeriodType;
 import org.joda.time.ReadableInstant;
 import org.joda.time.ReadablePartial;
 import org.joda.time.ReadablePeriod;
-import org.joda.time.chrono.ISOChronology;
 import org.joda.time.field.FieldUtils;
 
 /**
