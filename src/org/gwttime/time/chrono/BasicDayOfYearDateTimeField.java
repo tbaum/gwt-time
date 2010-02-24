@@ -15,10 +15,10 @@
  */
 package org.gwttime.time.chrono;
 
+import org.gwttime.time.field.PreciseDurationDateTimeField;
 import org.joda.time.DateTimeFieldType;
 import org.joda.time.DurationField;
 import org.joda.time.ReadablePartial;
-import org.joda.time.field.PreciseDurationDateTimeField;
 
 /**
  * Provides time calculations for the day of the year component of time.

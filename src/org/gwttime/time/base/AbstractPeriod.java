@@ -15,12 +15,12 @@
  */
 package org.gwttime.time.base;
 
+import org.gwttime.time.format.ISOPeriodFormat;
+import org.gwttime.time.format.PeriodFormatter;
 import org.joda.time.DurationFieldType;
 import org.joda.time.MutablePeriod;
 import org.joda.time.Period;
 import org.joda.time.ReadablePeriod;
-import org.joda.time.format.ISOPeriodFormat;
-import org.joda.time.format.PeriodFormatter;
 
 /**
  * AbstractPeriod provides the common behaviour for period classes.
@@ -196,7 +196,7 @@ public abstract class AbstractPeriod implements ReadablePeriod {
      * For example, "P6H3M7S" represents 6 hours, 3 minutes, 7 seconds.
      * <p>
      * For more control over the output, see
-     * {@link org.joda.time.format.PeriodFormatterBuilder PeriodFormatterBuilder}.
+     * {@link org.gwttime.time.format.PeriodFormatterBuilder PeriodFormatterBuilder}.
      *
      * @return the value as an ISO8601 string
      */

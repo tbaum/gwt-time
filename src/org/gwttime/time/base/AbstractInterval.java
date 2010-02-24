@@ -15,6 +15,9 @@
  */
 package org.gwttime.time.base;
 
+import org.gwttime.time.field.FieldUtils;
+import org.gwttime.time.format.DateTimeFormatter;
+import org.gwttime.time.format.ISODateTimeFormat;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeUtils;
 import org.joda.time.Duration;
@@ -24,9 +27,6 @@ import org.joda.time.Period;
 import org.joda.time.PeriodType;
 import org.joda.time.ReadableInstant;
 import org.joda.time.ReadableInterval;
-import org.joda.time.field.FieldUtils;
-import org.joda.time.format.DateTimeFormatter;
-import org.joda.time.format.ISODateTimeFormat;
 
 /**
  * AbstractInterval provides the common behaviour for time intervals.

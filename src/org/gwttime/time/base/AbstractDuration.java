@@ -15,11 +15,11 @@
  */
 package org.gwttime.time.base;
 
+import org.gwttime.time.format.FormatUtils;
 import org.joda.time.Duration;
 import org.joda.time.Period;
 import org.joda.time.ReadableDuration;
 import org.joda.time.ReadableInstant;
-import org.joda.time.format.FormatUtils;
 
 /**
  * AbstractDuration provides the common behaviour for duration classes.
@@ -179,7 +179,7 @@ public abstract class AbstractDuration implements ReadableDuration {
      * For example, "PT72.345S" represents 1 minute, 12 seconds and 345 milliseconds.
      * <p>
      * For more control over the output, see
-     * {@link org.joda.time.format.PeriodFormatterBuilder PeriodFormatterBuilder}.
+     * {@link org.gwttime.time.format.PeriodFormatterBuilder PeriodFormatterBuilder}.
      *
      * @return the value as an ISO8601 string
      */

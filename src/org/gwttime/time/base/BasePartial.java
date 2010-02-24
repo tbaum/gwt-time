@@ -310,7 +310,7 @@ public abstract class BasePartial
      * Output the date using the specified format pattern.
      *
      * @param pattern  the pattern specification, null means use <code>toString</code>
-     * @see org.joda.time.format.DateTimeFormat
+     * @see org.gwttime.time.format.DateTimeFormat
      */
     public String toString(String pattern) {
     	return super.toString(pattern);
@@ -325,7 +325,7 @@ public abstract class BasePartial
      *
      * @param pattern  the pattern specification, null means use <code>toString</code>
      * @param locale  Locale to use, null means default
-     * @see org.joda.time.format.DateTimeFormat
+     * @see org.gwttime.time.format.DateTimeFormat
      */
     public String toString(String pattern, LocaleInfo locale) throws IllegalArgumentException {
     	if(pattern==null)return toString();

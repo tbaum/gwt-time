@@ -19,6 +19,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.gwttime.time.field.BaseDateTimeField;
+import org.gwttime.time.field.DecoratedDurationField;
+import org.gwttime.time.format.DateTimeFormatter;
+import org.gwttime.time.format.ISODateTimeFormat;
 import org.joda.time.Chronology;
 import org.joda.time.DateTimeField;
 import org.joda.time.DateTimeUtils;
@@ -28,10 +32,6 @@ import org.joda.time.IllegalFieldValueException;
 import org.joda.time.Instant;
 import org.joda.time.ReadableInstant;
 import org.joda.time.ReadablePartial;
-import org.joda.time.field.BaseDateTimeField;
-import org.joda.time.field.DecoratedDurationField;
-import org.joda.time.format.DateTimeFormatter;
-import org.joda.time.format.ISODateTimeFormat;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

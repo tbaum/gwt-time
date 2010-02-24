@@ -17,6 +17,7 @@ package org.gwttime.time.base;
 
 import java.io.Serializable;
 
+import org.gwttime.time.field.FieldUtils;
 import org.joda.time.Chronology;
 import org.joda.time.DateTimeUtils;
 import org.joda.time.Interval;
@@ -25,7 +26,6 @@ import org.joda.time.PeriodType;
 import org.joda.time.ReadableDuration;
 import org.joda.time.ReadableInstant;
 import org.joda.time.ReadableInterval;
-import org.joda.time.field.FieldUtils;
 
 /**
  * BaseDuration is an abstract implementation of ReadableDuration that stores

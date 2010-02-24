@@ -16,10 +16,10 @@
 package org.gwttime.time.chrono;
 
 
+import org.gwttime.time.field.PreciseDurationDateTimeField;
 import org.joda.time.DateTimeConstants;
 import org.joda.time.DateTimeFieldType;
 import org.joda.time.DurationField;
-import org.joda.time.field.PreciseDurationDateTimeField;
 
 import com.google.gwt.i18n.client.LocaleInfo;
 

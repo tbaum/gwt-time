@@ -15,11 +15,11 @@
  */
 package org.gwttime.time.chrono;
 
+import org.gwttime.time.field.PreciseDurationDateTimeField;
 import org.joda.time.DateTimeConstants;
 import org.joda.time.DateTimeFieldType;
 import org.joda.time.DurationField;
 import org.joda.time.ReadablePartial;
-import org.joda.time.field.PreciseDurationDateTimeField;
 
 /**
  * Provides time calculations for the week of a week based year component of time.
