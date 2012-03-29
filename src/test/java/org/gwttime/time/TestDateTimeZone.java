@@ -563,13 +563,13 @@ public class TestDateTimeZone extends JodaGwtTestCase {
     	 */
 //    	assertEquals(null, DateTimeZone.getNameProvider().getName(null, "Europe/London", "BST"));
 //      assertEquals(null, DateTimeZone.getNameProvider().getName(LocaleInfo.getCurrentLocale(), null, "BST"));
-        assertEquals("Greenwich Mean Time", DateTimeZone.getNameProvider().getName(null, "Europe/London", "BST"));
+        assertEquals("British Summer Time", DateTimeZone.getNameProvider().getName(null, "Europe/London", "BST"));
         assertEquals("BST", DateTimeZone.getNameProvider().getName(LocaleInfo.getCurrentLocale(), null, "BST"));
-        assertEquals("Greenwich Mean Time", 
+        assertEquals("British Summer Time",
         						DateTimeZone.getNameProvider().getName(LocaleInfo.getCurrentLocale(), "Europe/London", null));
         assertEquals(null, DateTimeZone.getNameProvider().getName(null, null, null));
     }
-    
+
     public void testGetNameNullKey() {
         DateTimeZone zone = new MockDateTimeZone("Europe/London");
         assertEquals("Europe/London", zone.getName(TEST_TIME_SUMMER, LocaleInfo.getCurrentLocale()));
