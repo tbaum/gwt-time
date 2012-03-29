@@ -18,6 +18,7 @@ package org.gwttime.time.format;
 
 
 import junit.framework.Test;
+import junit.framework.TestResult;
 import junit.framework.TestSuite;
 
 import com.google.gwt.junit.tools.GWTTestSuite;
@@ -66,4 +67,7 @@ public class GwtTestAll extends GWTTestSuite {
         junit.textui.TestRunner.main(testCaseName);
     }
 
+    @Override public void run(TestResult testResult) {
+        //To change body of implemented methods use File | Settings | File Templates.
+    }
 }

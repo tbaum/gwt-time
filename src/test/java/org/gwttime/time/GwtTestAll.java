@@ -15,6 +15,7 @@
  */
 package org.gwttime.time;
 
+import junit.framework.TestResult;
 import org.gwttime.time.gwt.util.TestComparators;
 
 import junit.framework.Test;
@@ -110,4 +111,7 @@ public class GwtTestAll extends GWTTestSuite {
         return suite;
     }
 
+    @Override public void run(TestResult testResult) {
+        //To change body of implemented methods use File | Settings | File Templates.
+    }
 }
