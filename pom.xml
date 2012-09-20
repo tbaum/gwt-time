@@ -11,6 +11,13 @@
         <gwtVersion>2.5.0-rc1</gwtVersion>
     </properties>
 
+  <scm>
+        <connection>scm:git:ssh://git@github.com:tbaum/gwt-time.git</connection>
+        <url>scm:git:ssh://git@github.com:tbaum/gwt-time.git</url>
+    </scm>
+
+
+
     <build>
         <plugins>
             <plugin>
