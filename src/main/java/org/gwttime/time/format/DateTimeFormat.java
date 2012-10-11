@@ -15,15 +15,15 @@
  */
 package org.gwttime.time.format;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import com.google.gwt.core.shared.GWT;
+import com.google.gwt.i18n.client.LocaleInfo;
 import org.gwttime.time.Chronology;
 import org.gwttime.time.DateTime;
 import org.gwttime.time.DateTimeZone;
 import org.gwttime.time.ReadablePartial;
 
-import com.google.gwt.i18n.client.LocaleInfo;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Factory that creates instances of DateTimeFormatter from patterns and styles.
@@ -220,7 +220,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter shortDate() {
@@ -232,7 +232,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter shortTime() {
@@ -244,7 +244,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter shortDateTime() {
@@ -257,7 +257,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter mediumDate() {
@@ -269,7 +269,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter mediumTime() {
@@ -281,7 +281,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter mediumDateTime() {
@@ -294,7 +294,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter longDate() {
@@ -306,7 +306,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter longTime() {
@@ -318,7 +318,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter longDateTime() {
@@ -331,7 +331,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter fullDate() {
@@ -343,7 +343,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter fullTime() {
@@ -355,7 +355,7 @@ public class DateTimeFormat {
      * <p>
      * The format will change as you change the locale of the formatter.
      * Call {@link DateTimeFormatter#withLocale(LocaleInfo)} to switch the locale.
-     * 
+     *
      * @return the formatter
      */
     public static DateTimeFormatter fullDateTime() {
@@ -561,7 +561,7 @@ public class DateTimeFormat {
 
     /**
      * Parses an individual token.
-     * 
+     *
      * @param pattern  the pattern string
      * @param indexRef  a single element array, where the input is the start
      *  location and the output is the location after parsing the token
@@ -596,7 +596,7 @@ public class DateTimeFormat {
 
             for (; i < length; i++) {
                 c = pattern.charAt(i);
-                
+
                 if (c == '\'') {
                     if (i + 1 < length && pattern.charAt(i + 1) == '\'') {
                         // '' is treated as escaped '
@@ -621,7 +621,7 @@ public class DateTimeFormat {
 
     /**
      * Returns true if token should be parsed as a numeric field.
-     * 
+     *
      * @param token  the token to parse
      * @return true if numeric field
      */
@@ -655,7 +655,7 @@ public class DateTimeFormat {
                 }
             }
         }
-            
+
         return false;
     }
 
@@ -708,7 +708,7 @@ public class DateTimeFormat {
 
     /**
      * Gets the formatter for the specified style.
-     * 
+     *
      * @param dateStyle  the date style
      * @param timeStyle  the time style
      * @return the formatter
@@ -736,7 +736,7 @@ public class DateTimeFormat {
 
     /**
      * Gets the JDK style code from the Joda code.
-     * 
+     *
      * @param ch  the Joda style code
      * @return the JDK style code
      */
@@ -762,7 +762,7 @@ public class DateTimeFormat {
             implements DateTimePrinter, DateTimeParser {
 
         private static final Map<String, DateTimeFormatter> cCache = new HashMap<String, DateTimeFormatter>();  // manual sync
-        
+
         private final int iDateStyle;
         private final int iTimeStyle;
         private final int iType;
@@ -800,7 +800,12 @@ public class DateTimeFormat {
         }
 
         private DateTimeFormatter getFormatter(LocaleInfo locale) {
-            locale = (locale == null ? LocaleInfo.getCurrentLocale() : locale);
+            if (locale == null) {
+                if (GWT.isClient()) {
+                    locale = LocaleInfo.getCurrentLocale();
+                }
+                System.err.println("loc" + locale);
+            }
             String key = Integer.toString(iType + (iDateStyle << 4) + (iTimeStyle << 8)) + locale.toString();
             DateTimeFormatter f = null;
             synchronized (cCache) {
@@ -816,7 +821,7 @@ public class DateTimeFormat {
 
         String getPattern(LocaleInfo locale) {
         	com.google.gwt.i18n.client.DateTimeFormat dtf = null;
-            
+
             switch (iType) {
                 case DATE:
                     dtf = com.google.gwt.i18n.client.DateTimeFormat.getFullDateFormat();

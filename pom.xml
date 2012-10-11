@@ -2,12 +2,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.gwttime</groupId>
     <artifactId>gwttime</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <gwtVersion>2.5.0-rc1</gwtVersion>
+        <gwtVersion>2.5.0-rc2</gwtVersion>
     </properties>
 
   <scm>
@@ -22,7 +22,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>gwt-maven-plugin</artifactId>
-                <version>2.4.0</version>
+                <version>2.5.0-rc1</version>
                 <executions>
                     <execution>
                         <goals>

@@ -15,25 +15,14 @@
  */
 package org.gwttime.time.format;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import org.gwttime.time.Chronology;
-import org.gwttime.time.DateTimeConstants;
-import org.gwttime.time.DateTimeField;
-import org.gwttime.time.DateTimeFieldType;
-import org.gwttime.time.DateTimeZone;
-import org.gwttime.time.MutableDateTime;
-import org.gwttime.time.ReadablePartial;
+import com.google.gwt.core.shared.GWT;
+import com.google.gwt.i18n.client.LocaleInfo;
+import org.gwttime.time.*;
 import org.gwttime.time.MutableDateTime.Property;
 import org.gwttime.time.field.MillisDurationField;
 import org.gwttime.time.field.PreciseDateTimeField;
 
-import com.google.gwt.i18n.client.LocaleInfo;
+import java.util.*;
 
 /**
  * Factory that creates complex instances of DateTimeFormatter via method calls.
@@ -2281,8 +2270,10 @@ public class DateTimeFormatterBuilder {
             }
 
             if (locale == null) {
-                // Guard against default locale changing concurrently.
-                locale = LocaleInfo.getCurrentLocale();
+                if (GWT.isClient()) {
+                    // Guard against default locale changing concurrently.
+                    locale = LocaleInfo.getCurrentLocale();
+                }
             }
 
             int len = elements.length;
