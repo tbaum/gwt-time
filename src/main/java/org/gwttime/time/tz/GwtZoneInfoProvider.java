@@ -128,7 +128,7 @@ public class GwtZoneInfoProvider implements Provider {
         add(timeZoneConstants.australiaHobart());
         add(timeZoneConstants.americaJuneau());
         add(timeZoneConstants.americaInuvik());
-        add(timeZoneConstants.americaMontreal());
+//        add(timeZoneConstants.americaMontreal());
         add(timeZoneConstants.asiaSeoul());
         add(timeZoneConstants.indianComoro());
         add(timeZoneConstants.europeParis());
@@ -341,7 +341,7 @@ public class GwtZoneInfoProvider implements Provider {
         add(timeZoneConstants.europeSimferopol());
         add(timeZoneConstants.africaBlantyre());
         add(timeZoneConstants.americaDetroit());
-        add(timeZoneConstants.americaShiprock());
+//        add(timeZoneConstants.americaShiprock());
         add(timeZoneConstants.americaGrenada());
         add(timeZoneConstants.americaIndianaPetersburg());
         add(timeZoneConstants.asiaPontianak());

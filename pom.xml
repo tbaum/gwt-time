@@ -1,28 +1,27 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.gwttime</groupId>
     <artifactId>gwttime</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <gwtVersion>2.5.0-rc2</gwtVersion>
+        <gwtVersion>2.7.0</gwtVersion>
     </properties>
 
-  <scm>
+    <scm>
         <connection>scm:git:ssh://git@github.com:tbaum/gwt-time.git</connection>
         <url>scm:git:ssh://git@github.com:tbaum/gwt-time.git</url>
     </scm>
-
-
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>gwt-maven-plugin</artifactId>
-                <version>2.5.0-rc1</version>
+                <version>${gwtVersion}</version>
                 <executions>
                     <execution>
                         <goals>
@@ -61,7 +60,7 @@
             <groupId>com.google.gwt</groupId>
             <artifactId>gwt-servlet</artifactId>
             <version>${gwtVersion}</version>
-            <scope>runtime</scope>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.google.gwt</groupId>
@@ -79,11 +78,11 @@
     <distributionManagement>
         <repository>
             <id>internal</id>
-            <url>http://mvn.atns.de/repository/internal/</url>
+            <url>https://mvn.atns.de/repository/internal/</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
-            <url>http://mvn.atns.de/repository/snapshots/</url>
+            <url>https://mvn.atns.de/repository/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
